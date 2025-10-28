@@ -26,6 +26,8 @@ You can clone the project in two ways:
 
 #### Option A – Using Git (Recommended)
 
+Copy repository link from the web, click **"Code"** on the top right of the repository then open cmd and type this:
+
 ```bash
 git clone https://github.com/<your-username>/SLMCTS.git
 ```
@@ -80,50 +82,6 @@ pip install -r requirements.txt
 
 ---
 
-### 6. Set Up the Database
-
-The project uses **SQLAlchemy** for ORM.
-Check your database configuration in `config.py` or `.env`.
-
-To initialize the database:
-
-```bash
-flask db upgrade
-```
-
-or manually:
-
-```bash
-python
->>> from app import db
->>> db.create_all()
->>> exit()
-```
-
----
-
-### 7. Run the Application
-
-Start the development server:
-
-```bash
-flask run
-```
-
-or
-
-```bash
-python app.py
-```
-
-Then open your browser and go to:
-
-```
-http://127.0.0.1:5000/
-```
-
----
-
 ## Commit Guidelines
 
 For every commit, include a message describing your changes and **add your name (Shalom)**.
@@ -144,4 +102,6 @@ git push
 * Ensure your environment is activated before installing dependencies or running the app.
 
 ---
+
+## Do notify your co-members when you want to modify or work on a certain function to avoid task confusion and duplicate works. God Bless y'all, keep safe!
 
