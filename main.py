@@ -16,6 +16,3 @@ def home(request: Request):
       "title": "Home"
     }
   )
-
-def test(request: Request): 
-  return "test"
